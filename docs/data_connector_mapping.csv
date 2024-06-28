@@ -1,0 +1,54 @@
+Data Connector, Description, Table, NIST CSF v2.0 Controls
+Azure Activity,1. Auditing and health monitoring,AzureActivity,DE.CM-03; DE.CM-06; DE.CM-09 
+Azure Monitor,1. Auditing and health monitoring,Heartbeat,DE.CM-03; DE.CM-06 
+Azure Monitor,1. Auditing and health monitoring,Perf,DE.CM-03; DE.CM-06 
+Azure Monitor,1. Auditing and health monitoring,SentinelHealth,DE.CM-03; DE.CM-06 
+Microsoft Entra ID,2. Identity & Credential Management,AADManagedIdentitySignInLogs,DE.CM-03; DE.CM-06; DE.CM-11 
+Microsoft Entra ID,2. Identity & Credential Management,AADServicePrincipalSignInLogs,DE.CM-03; DE.CM-06; DE.CM-12 
+Microsoft Entra ID,2. Identity & Credential Management,AuditLogs,DE.CM-03; DE.CM-06; DE.CM-10 
+Microsoft 365,2. Identity & Credential Management,OfficeActivity,DE.CM-09 
+Microsoft Defender for Identity,2. Identity & Credential Management,SecurityAlert(AATP),DE.AE-02; ID.RA-02; DE.AE-03; DE.CM-06; DE.CM-09 
+Microsoft Entra ID,2. Identity & Credential Management,SigninLogs,DE.CM-03; DE.CM-06; DE.CM-09 
+User Behavior Monitoring	UEBA,3. User and Entity Behavior Analytics (UEBA),BehaviorAnalytics,DE.CM-03; DE.CM-06 
+User Behavior Monitoring	UEBA,3. User and Entity Behavior Analytics (UEBA),IdentityInfo,DE.CM-03; DE.CM-06 
+Microsoft Defender,4. Operating Systems and Endpoints,DeviceEvents,DE.AE-02; ID.RA-02; DE.AE-03; DE.CM-06; DE.CM-09 
+Microsoft Defender,4. Operating Systems and Endpoints,DeviceFileEvents,DE.AE-02; ID.RA-02; DE.AE-03; DE.CM-06; DE.CM-09 
+Microsoft Defender,4. Operating Systems and Endpoints,DeviceLogonEvents,DE.AE-02; ID.RA-02; DE.AE-03; DE.CM-06; DE.CM-09 
+Microsoft Defender,4. Operating Systems and Endpoints,DeviceNetworkInfo,DE.AE-02; ID.RA-02; DE.AE-03; DE.CM-06; DE.CM-09 
+Microsoft Defender,4. Operating Systems and Endpoints,DeviceProcessEvents,DE.AE-02; ID.RA-02; DE.AE-03; DE.CM-06; DE.CM-09 
+Microsoft Defender,4. Operating Systems and Endpoints,DeviceRegistryEvents,DE.AE-02; ID.RA-02; DE.AE-03; DE.CM-06; DE.CM-09 
+Azure Monitor,4. Operating Systems and Endpoints,InsightsMetrics,DE.CM-03; DE.CM-06 
+Microsoft Defender for Endpoint,4. Operating Systems and Endpoints,SecurityAlert(MDATP),DE.AE-02; ID.RA-02; DE.AE-03; DE.CM-06; DE.CM-09 
+Microsoft Defender XDR,4. Operating Systems and Endpoints,SecurityAlert(XDR),DE.AE-02; ID.RA-02; DE.AE-03; DE.CM-06; DE.CM-09 
+Windows Security Events,4. Operating Systems and Endpoints,SecurityEvent,DE.CM-06; DE.CM-09 
+Syslog,4. Operating Systems and Endpoints,Syslog(LinuxOS),DE.AE-03; DE.AE-06 
+Syslog,4. Operating Systems and Endpoints,Syslog(MacOS),DE.AE-03; DE.AE-06 
+VMware ESXi,4. Operating Systems and Endpoints,VMwareESXi,DE.CM-03; DE.CM-06 
+Microsoft Defender,6. Azure Cloud Enviroment,EmailAttachmentInfo,DE.AE-02; ID.RA-02; DE.AE-03; DE.CM-06; DE.CM-09 
+Microsoft Defender,6. Azure Cloud Enviroment,EmailEvents,DE.AE-02; ID.RA-02; DE.AE-03; DE.CM-06; DE.CM-09 
+Microsoft Defender,6. Azure Cloud Enviroment,EmailUrlInfo,DE.AE-02; ID.RA-02; DE.AE-03; DE.CM-06; DE.CM-09 
+Microsoft Purview Insider Risk Management,6. Azure Cloud Enviroment,InformationProtectionLogs_CL,ID.RA-02; DE.AE-03  
+Azure Kubernetes Service (AKS),6. Azure Cloud Enviroment,KubeEvents_CL,ID.AM-02; DE.CM-06; DE.CM-09 
+Microsoft Defender for Cloud ,6. Azure Cloud Enviroment,SecurityAlert(ASC),ID.AM-02; DE.AE-03; DE.CM-06  
+Microsoft Defender for Cloud Apps,6. Azure Cloud Enviroment,SecurityAlert(MCAS),ID.AM-02; DE.AE-03; DE.CM-06  
+Microsoft Defender for Office 365,6. Azure Cloud Enviroment,SecurityAlert(OATP),DE.AE-02; ID.RA-02; DE.AE-03; DE.CM-06; DE.CM-09 
+Microsoft 365 Insider Risk Management,6. Azure Cloud Enviroment,SecurityAlert(OfficeIRM),ID.AM-02; DE.AE-03; DE.CM-06  
+Microsoft Entra ID Protection,6. Azure Cloud Enviroment,SecurityAlerts(IPC),ID.AM-02; DE.AE-03; DE.CM-06  
+Microsoft Defender for Cloud,6. Azure Cloud Enviroment,SecurityRecommendation,ID.AM-02; DE.AE-03; DE.CM-06  
+Microsoft Defender for Cloud,6. Azure Cloud Enviroment,SecurityRegulatoryCompliance,ID.AM-02; DE.AE-03; DE.CM-06  
+Microsoft Sentinel,6. Azure Cloud Enviroment,ThreatIntelligenceIndicator,ID.RA-02; DE.AE-03  
+Azure Automation,6. Azure Cloud Enviroment,Update,ID.IM-01; ID.AM-08 
+Azure Diagnostics,5. Network Device Infrastructure,AzureDiagnostics,DE.CM-01; DE.AE-02; DE.CM-09 
+Azure Diagnostics,5. Network Device Infrastructure,AzureDiagnostics(AzureFirewalls),DE.CM-01; DE.AE-02; DE.CM-09 
+Azure Diagnostics,5. Network Device Infrastructure,AzureDiagnostics(AzureIDS),DE.CM-01; DE.AE-02; DE.CM-09 
+Azure Diagnostics,5. Network Device Infrastructure,AzureDiagnostics(AzureKeyVault),DE.CM-01; DE.AE-02; DE.CM-09 
+Azure Diagnostics,5. Network Device Infrastructure,AzureDiagnostics(AzureKubernetes),DE.CM-01; DE.AE-02; DE.CM-09 
+Azure Diagnostics,5. Network Device Infrastructure,AzureDiagnostics(AzureSQL),DE.CM-01; DE.AE-02; DE.CM-09 
+Azure Diagnostics,5. Network Device Infrastructure,AzureDiagnostics(AzureWAF),DE.CM-01; DE.AE-02; DE.CM-09 
+Azure Diagnostics,5. Network Device Infrastructure,AzureDiagnostics(GatewayDiagnosticLog),DE.CM-01; DE.AE-02; DE.CM-09 
+Common Event Format (CEF),5. Network Device Infrastructure,CommonSecurityLog,DE.CM-01 
+Microsoft Defender,5. Network Device Infrastructure,DeviceNetworkEvents,DE.AE-02; ID.RA-02; DE.AE-03; DE.CM-06; DE.CM-09 
+Windows DNS,5. Network Device Infrastructure,DnsEvents,DE.CM-01 
+Microsoft Endpoint Manager(Intune),5. Network Device Infrastructure,IntuneAuditLogs,ID.AM-01; DE.AE-02; DE.AE-03; DE.CM-06; DE.CM-09 
+Microsoft Defender for IoT,5. Network Device Infrastructure,SecurityAlert(ASCforIoT),DE.AE-02; ID.RA-02; DE.AE-03; DE.CM-06; DE.CM-09 
+Amazon Web Services,7. AWS Cloud Enviroment,AWSCloudTrail,DE.CM-03; DE.CM-06
